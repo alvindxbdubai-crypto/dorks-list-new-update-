@@ -1,0 +1,1738 @@
+filename:.env
+filename:.env.example
+filename:config.json
+filename:database.yml
+filename:settings.py
+filename:id_rsa
+filename:id_rsa.pub
+filename:jwt.private.key
+filename:jwt.public.key
+filename:credentials
+filename:auth.json
+"aws_access_key" filename:json
+"secret_key" extension:yaml
+"api_key" extension:env
+"password="
+"smtp" filename:config
+"ftp" filename:config
+"database" extension:ini
+"token" extension:json
+filename:.pgpass
+"aws_secret_access_key"
+"aws_access_key_id"
+"GCP_PROJECT"
+"GOOGLE_APPLICATION_CREDENTIALS"
+"client_secret" extension:json
+"azure" extension:json
+"firebase" extension:js
+"docker login"
+"docker-compose" "password"
+"kubernetes" "token"
+"helm" "password"
+"ansible_vault_password_file"
+"terraform" "variable"
+"packer" "password"
+"vault" "token"
+"minio" extension:env
+"linode" "api"
+"digitalocean" extension:txt
+"deployment" "key"
+filename:cloudbuild.yaml
+"mongodb://" NOT example
+"postgres://" NOT example
+"mysql://" NOT example
+"redis://" NOT example
+"jdbc:" "password"
+"DB_PASSWORD"
+"DB_USERNAME"
+"DB_HOST"
+filename:pgadmin.json
+"datasource" extension:xml
+"mongo_uri"
+"connectionstring"
+"SQLALCHEMY_DATABASE_URI"
+"spring.datasource"
+"prisma" "password"
+"mongoose.connect"
+"HikariDataSource"
+"Sequelize" "password"
+"typeorm" "password"
+"database" extension:php
+"api_token"
+"access_token"
+"auth_token"
+"bearer"
+"private_key"
+"client_id" "client_secret"
+"slack_token"
+"discord_token"
+"bot_token"
+"github_token"
+"gitlab_token"
+"stripe_secret"
+"twilio" "secret"
+"sendgrid" "key"
+"mailgun" "key"
+"firebase_api_key"
+"heroku_api_key"
+"pushbullet"
+"onesignal" "key"
+"algolia" "api"
+"nextauth" "secret"
+"supabase" "anon key"
+"supabase" "service_role"
+"sqlmap" "config"
+"wp-config.php" "DB_PASSWORD"
+"laravel" "APP_KEY"
+"flask" "SECRET_KEY"
+"django" "SECRET_KEY"
+"rails" "secret_key_base"
+"nuxt" "privateRuntimeConfig"
+"expo" "apiKey"
+"react-native-config"
+"fastapi" "secret"
+"express-session" "secret"
+"jwt" "secret"
+"oauth" "client_secret"
+"smtp_password"
+"imap_password"
+"firebaseConfig"
+"github actions" "secrets"
+  filename:.env
+filename:.env.example
+filename:.config
+filename:local.settings.json
+filename:application.yaml
+filename:application.properties
+filename:config.yaml
+filename:config.yml
+filename:config.ini
+filename:config.php
+filename:config.py
+filename:settings.py
+filename:settings.json
+filename:settings.yaml
+filename:dotenv
+filename:credentials
+filename:credentials.json
+filename:client_secrets.json
+filename:auth.json
+filename:auth.yaml
+filename:httpd.conf
+filename:nginx.conf
+filename:apache.conf
+filename:lighttpd.conf
+filename:docker-compose.yml
+filename:docker-compose.yaml
+filename:compose.yaml
+filename:Dockerfile
+filename:Makefile
+filename:Procfile
+filename:manifest.json
+filename:manifest.yaml
+filename:manifest.xml
+filename:environment
+filename:.npmrc
+filename:.yarnrc
+filename:package.json
+filename:package-lock.json
+filename:build.gradle
+filename:gradle.properties
+filename:pom.xml
+filename:project.clj
+filename:application.json
+filename:application.js
+filename:webpack.config.js
+filename:tsconfig.json
+filename:vite.config.js
+filename:babel.config.js
+filename:rollup.config.js
+filename:next.config.js
+filename:nuxt.config.js
+filename:remix.config.js
+filename:firebase.json
+filename:firestore.indexes.json
+filename:firestore.rules
+filename:storage.rules
+filename:db.json
+filename:database.json
+filename:database.yml
+filename:database.yaml
+filename:pgadmin.json
+filename:pgpass
+filename:.pgpass
+filename:mysql.cnf
+filename:redis.conf
+filename:mongo.json
+filename:mongo.yaml
+filename:mongod.conf
+filename:elasticsearch.yml
+filename:kibana.yml
+filename:logstash.conf
+filename:prometheus.yml
+filename:grafana.ini
+filename:k8s.yaml
+filename:kubernetes.yaml
+filename:deployment.yaml
+filename:deployment.yml
+filename:service.yaml
+filename:service.yml
+filename:ingress.yaml
+filename:ingress.yml
+filename:helmfile.yaml
+filename:Chart.yaml
+filename:charts.yaml
+filename:terraform.tf
+filename:terraform.tfvars
+filename:terraform.tf.json
+filename:terraform.lock.hcl
+filename:main.tf
+filename:provider.tf
+filename:output.tf
+filename:variables.tf
+filename:ansible.cfg
+filename:inventory.ini
+filename:inventory.yaml
+filename:vault.yml
+filename:group_vars
+filename:host_vars
+filename:packer.json
+filename:packer.hcl
+filename:serverless.yml
+filename:serverless.yaml
+filename:cloudformation.yaml
+filename:cloudformation.json
+filename:cloudbuild.yaml
+filename:azure-pipelines.yml
+filename:pipeline.yaml
+filename:bitbucket-pipelines.yml
+filename:.gitlab-ci.yml
+filename:.github/workflows
+filename:workflow.yaml
+filename:workflow.yml
+filename:api.yaml
+filename:api.yml
+filename:openapi.yaml
+filename:openapi.json
+filename:swagger.yaml
+filename:swagger.json
+filename:postman.json
+filename:postman_collection.json
+filename:http-client.env.json
+filename:http-client.private.env.json
+filename:routes.yaml
+filename:routes.json
+filename:routes.js
+filename:routing.yml
+filename:routing.json
+filename:appsettings.json
+filename:appsettings.Development.json
+filename:local.settings.json
+filename:web.config
+filename:app.config
+filename:global.asax
+filename:settings.conf
+filename:application.conf
+filename:supervisord.conf
+filename:pm2.json
+filename:ecosystem.config.js
+filename:ecosystem.json
+filename:Caddyfile
+filename:hadoop.conf
+filename:zookeeper.cfg
+filename:airflow.cfg
+filename:pipeline.json
+filename:datasource.json
+filename:datasource.yaml
+filename:source_mapping.json
+filename:graphql.schema.json
+filename:schema.graphql
+filename:schema.gql
+filename:schema.prisma
+filename:prisma.schema
+filename:ormconfig.json
+filename:ormconfig.js
+filename:typeorm.json
+filename:sequelize.json
+filename:knexfile.js
+filename:knexfile.ts
+filename:mongoose.json
+filename:mongoose.js
+filename:dbconnect.js
+filename:connect.js
+filename:connection.js
+filename:connection.json
+filename:connect.php
+filename:database.php
+filename:config.php
+filename:env.php
+filename:local.php
+filename:wp-config.php
+filename:wp-settings.php
+filename:wp-cli.yml
+filename:wp-cli.local.yml
+filename:local.env
+filename:dev.env
+filename:prod.env
+filename:test.env
+filename:staging.env
+filename:docker.env
+filename:.env.local
+filename:.env.dev
+filename:.env.production
+filename:.env.stage
+filename:.env.staging
+filename:.env.test
+filename:.envrc
+filename:.configrc
+filename:local.json
+filename:development.json
+filename:production.json
+filename:test.json
+filename:beta.json
+filename:staging.json
+filename:server.py
+filename:server.js
+filename:server.ts
+filename:server.go
+filename:main.go
+filename:main.py
+filename:app.py
+filename:index.js
+filename:index.ts
+filename:start.sh
+filename:run.sh
+filename:install.sh
+filename:init.sh
+filename:bootstrap.sh
+filename:setup.sh
+filename:deploy.sh
+filename:release.sh
+filename:.bashrc
+filename:.zshrc
+filename:.bash_profile
+filename:.profile
+filename:.bash_history
+filename:.zsh_history
+filename:.npm/_logs
+filename:.dockerignore
+filename:.gitignore
+filename:.gitattributes
+filename:.editorconfig
+filename:.vscode/settings.json
+filename:.vscode/launch.json
+filename:.idea/workspace.xml
+filename:.idea/modules.xml
+filename:secrets.json
+filename:certs.json
+filename:certs.yaml
+filename:certificates.json
+filename:keystore.json
+filename:truststore.json
+filename:csr.json
+filename:ssh_config
+filename:sshd_config
+filename:openssh.config
+filename:authorized_keys
+filename:known_hosts
+filename:hosts
+filename:network.conf
+filename:netplan.yaml
+filename:wifi.conf
+filename:proxy.conf
+filename:proxy.json
+filename:proxies.json
+filename:monitoring.json
+filename:metrics.yml
+filename:events.json
+filename:audit.json
+filename:audit.yaml
+filename:logging.yml
+filename:logging.json
+filename:log4j.properties
+filename:logback.xml
+filename:console.log
+filename:server.log
+filename:debug.log
+filename:trace.log
+filename:error.log
+filename:dev.log
+filename:app.log
+filename:system.log
+filename:build.log
+filename:ci.log
+filename:runtime.log
+filename:access.log
+filename:2021.log
+filename:2022.log
+filename:2023.log
+filename:2024.log
+filename:user.json
+filename:users.json
+filename:userdata.json
+filename:profile.json
+filename:profiles.yaml
+filename:admin.json
+filename:admins.json
+filename:permissions.json
+filename:acl.json
+filename:acl.yaml
+filename:roles.json
+filename:roles.yaml
+filename:groups.json
+filename:groups.yaml
+filename:sessions.json
+filename:sessions.yaml
+filename:session.json
+filename:configmap.yaml
+filename:secret.yaml
+filename:secret.json
+filename:resource.yaml
+filename:resource.json
+filename:metadata.yaml
+filename:metadata.json
+filename:object.json
+filename:app_metadata.json
+filename:env_metadata.json
+filename:global.json
+filename:cluster.yaml
+filename:cluster.json
+filename:node.json
+filename:nodes.json
+filename:node.yaml
+filename:node.yml
+filename:hosts.yml
+filename:hosts.yaml
+filename:machine.json
+filename:machine.yaml
+filename:instance.json
+filename:instances.json
+filename:lambda.json
+filename:lambda.yaml
+filename:function.json
+filename:functions.json
+filename:function.yaml
+filename:endpoints.json
+filename:endpoints.yaml
+filename:endpoint.json
+filename:routes.map
+filename:router.js
+filename:router.ts
+filename:router.json
+filename:middleware.js
+filename:middleware.ts
+filename:middleware.json
+filename:plugins.json
+filename:plugin.json
+filename:module.json
+filename:modules.json
+filename:module.yaml
+filename:package.yaml
+filename:services.json
+filename:services.yaml
+filename:secrets.yaml
+filename:secret.yml
+"TODO"
+"FIXME"
+"WORK_IN_PROGRESS"
+"internal"
+"private"
+"confidential"
+"do_not_commit"
+"temp"
+"tmp"
+"backup"
+"dump"
+"debug"
+"debugger"
+"trace"
+"internal-use"
+"internal-only"
+"sample"
+"example"
+"example-config"
+"deprecated"
+"legacy"
+"old-version"
+"beta"
+"staging"
+"development"
+"testing"
+"test-only"
+"experimental"
+"archive"
+"backup"
+"dump"
+"migration"
+"migrations"
+"schema"
+"dbdump"
+"dbbackup"
+"recovery"
+"snapshot"
+"local-dev"
+"local-backup"
+"system-backup"
+"debug_mode"
+"internal_config"
+"config_backup"
+"src/backup"
+"src/internal"
+"src/private"
+"src/experimental"
+"src/tmp"
+".tmp"
+".backup"
+".archive"
+"log/"
+"logs/"
+"dump/"
+"debug/"
+"backup/"
+"old/"
+"legacy/"
+"unused/"
+"not_used/"
+"test_data"
+"testfiles"
+"fixtures"
+"samples"
+"mock"
+"mockdata"
+"mockserver"
+"dummy"
+"placeholder"
+"prototype"
+"poc"
+"draft"
+"drafts"
+"INTERNAL USE ONLY"
+"COMPANY INTERNAL"
+"NOT FOR PUBLIC DISTRIBUTION"
+"production server" filename:md
+"prod cluster" extension:yml
+"deprecated endpoint" filename:md
+"legacy api" path:docs
+"migration plan" filename:txt
+"architecture diagram" extension:png
+"system design" extension:md
+"internal architecture" extension:pdf
+"on-call" filename:md
+"pagerduty" filename:md
+"runbook" filename:md
+"incident response" filename:md
+"SOC2" filename:md
+"compliance" filename:md
+"deployment checklist"
+"internal notes"
+"meeting notes" extension:md
+"developer notes"
+"not finished" "TODO"
+"unfinished" path:src
+"debug instructions"
+"local debug"
+"local build instructions"
+"test endpoint" path:api
+"temporary endpoint"
+"deprecated key" filename:md
+"remove before production"
+"staging url"
+"staging host"
+"dev endpoint"
+"internal endpoint"
+"beta endpoint"
+"shadow api"
+"experimental api"
+"private endpoint"
+"private microservice"
+"service discovery" filename:json
+"service registry" filename:json
+"internal metrics"
+"observability" filename:yaml
+"debug logs" extension:log
+"trace logs" extension:log
+"client_debug" extension:js
+"debug_mode" extension:py
+"dump" extension:json
+"dump" extension:sql
+"debug dump"
+"initial dump"
+"database seed" extension:js
+"seed data" extension:json
+"fixture data"
+"dev fixture"
+"mock backend"
+"mock api"
+"mock server"
+"staging config"
+"staging settings"
+"internal dashboard"
+"admin panel" filename:md
+"admin instructions"
+"admin url"
+"admin route"
+"admin endpoint"
+"root path"
+"superuser" filename:md
+"bypass"
+"temporary patch"
+"hotfix"
+"rollback plan"
+"dataflow" filename:md
+"datapipeline" extension:yaml
+"etl job"
+"cron job" extension:yaml
+"cron" extension:json
+"scheduled task"
+"worker settings"
+"job runner"
+"async worker"
+"queue settings"
+"message bus"
+"eventstream"
+"internal webhooks"
+"pre-production" filename:yaml
+"internal sso"
+"oauth sandbox"
+"token format"
+"issuer url"
+"client redirect" filename:json
+"dev redirect"
+"internal certificate"
+"public certificate"
+"root certificate" filename:txt
+"private mirror"
+"mirror registry"
+"registry config"
+"package mirror"
+"dependency override"
+"vulnerable version"
+"temporary bypass"
+"security exception"
+"ignored failure"
+"skip verify"
+"disable validation"
+"test-only"
+"experiments"
+"preview feature"
+"feature flag" extension:json
+"feature toggle"
+"flag config"
+"dark launch"
+"staging override"
+"internal secrets" filename:md
+"rotation plan"
+"expired key"
+"old token"
+"integration test"
+"functional test data"
+"shadow traffic"
+"test credentials" (safe fake credentials)
+"example cert"
+"sample token"
+"local sandbox"
+"developer sandbox"
+"experimental infrastructure"
+"decommissioned"
+"archived server"
+"old microservice"
+"unused endpoint"
+"hidden route"
+"feature branch" filename:md
+"pre-release"
+"beta api"
+"candidate build"
+"bootstrap config"
+"internal module"
+"deprecated service"
+"api discovery"
+"host mapping"
+"service map"
+"request map"
+"traffic routing"
+"load balancer rules"
+"canary rules"
+"circuit breaker"
+"fallback settings"
+"site reliability"
+"SRE" filename:md
+"monitoring alerts"
+"alert rules" extension:yaml
+"prometheus rule"
+"grafana dashboard" extension:json
+"grafana snapshots"
+"opentelemetry" filename:yaml
+"jaeger" filename:json
+"zipkin" extension:json
+"apm agent"
+"backend system"
+"sidecar"
+"proxy settings"
+"internal proxy"
+"local proxy"
+"edge config"
+"internal dns"
+"service dns"
+"mesh config"
+"istio" filename:yaml
+"linkerd" filename:yaml
+"consul" filename:json
+"nomad" filename:json
+"internal queue"
+"kafka topics"
+"event topics"
+"dead letter queue"
+"migration draft"
+"schema draft"
+"db changes"
+"database notes"
+"db migration plan"
+"index suggestions"
+"slow query logs"
+"performance notes"
+"profiling"
+"profiling results"
+"benchmark results"
+"stress test"
+"load test"
+"chaos experiment"
+"chaos engineering"
+"failover test"
+"disaster recovery"
+"backup schedule"
+"restore procedure"
+"internal faq"
+"internal guidelines"
+"coding standard"
+"security checklist"
+"threat model"
+"risk analysis"
+"vulnerability assessment"
+"pentest notes" (allowed only if public)
+"scan results" (allowed only if public)
+"internal rollout notes" filename:md
+"service ownership map" extension:yaml
+"microservice boundaries" filename:md
+"infra bootstrap state" extension:json
+"session schema reference" filename:md
+"traffic splitting rules" extension:yaml
+"reroute candidates" filename:txt
+"fallback chain" filename:yaml
+"request shaping config" extension:yaml
+"legacy redirect table" extension:csv
+"internal experiment config" extension:json
+"shadow mode" filename:yaml
+"pre-experiment routes" filename:json
+"flag dependency graph" extension:json
+"backend lineage" filename:md
+"data contract" filename:yaml
+"api surface notes" filename:txt
+"service-to-service assumptions" filename:md
+"orphaned api" filename:md
+"mystery endpoint" filename:txt
+"codebase archaeology" filename:md
+"unknown side effect" extension:md
+"domain events catalog" filename:md
+"cache invalidation map" extension:json
+"cache keys doc" filename:md
+"runtime tuning settings" filename:yaml
+"initial bootstrap payload" extension:json
+"pre-calculated responses" filename:json
+"emergency path" filename:md
+"fallback router" filename:ts
+"unexpected behavior" filename:txt
+"client divergence" filename:md
+"server divergence" filename:md
+"migration blocker list" filename:txt
+"brittle component list" filename:md
+"rewrite diary" filename:md
+"dead feature inventory" filename:txt
+"unverifiable behavior" filename:md
+"rewrite decisions" filename:md
+"system compass" filename:md
+"impossible state notes" filename:md
+"incorrect assumptions" filename:txt
+"internal feature matrix" extension:json
+"deployment quirks" filename:md
+"weird system behavior" filename:md
+"analytics misfire" filename:md
+"session persistence issues" filename:md
+"response anomalies" filename:txt
+"admin surface overview" filename:md
+"experimental admin tool" filename:js
+"unpublished admin route" filename:txt
+"undocumented parameters" filename:md
+"superuser caveats" filename:md
+"maintenance bypass" filename:md
+"infra quick fixes" filename:txt
+"manual cluster operations" filename:md
+"cluster drift" filename:md
+"edge case handling" filename:md
+"overloaded component list" filename:txt
+"packet trace summary" filename:md
+"observability assumptions" filename:md
+"partial rollout config" filename:yaml
+"incomplete deployment notes" filename:md
+"integration boundary" filename:md
+"protocol mismatch" filename:txt
+"transport quirks" filename:md
+"service timeout matrix" extension:json
+"unexpected request patterns" filename:md
+"deferred cleanup" filename:txt
+"deprecated extension points" filename:md
+"bootstrap hints" filename:txt
+"internal UX flow" filename:md
+"beta-only UI" filename:js
+"hidden ui panel" filename:tsx
+"non-routable ui" filename:jsx
+"offline processing rules" filename:yaml
+"state hydration plan" filename:md
+"websocket fallback" filename:js
+"retry storm scenario" filename:md
+"internal discovery rules" filename:md
+"offline diagnostics" extension:txt
+"overlapping handlers" filename:md
+"config shadowing" filename:txt
+"service compile matrix" filename:md
+"dev-only script" filename:sh
+"pipeline smoke test" extension:yaml
+"orchestration hints" filename:md
+"undocumented flags" filename:txt
+"manual escape hatch" filename:md
+"feature interop issues" filename:md
+"remote handler index" filename:json
+"reverse dependency table" filename:csv
+"process isolation notes" filename:md
+"rolling upgrade concerns" filename:txt
+"supervisor tuning" filename:md
+"replay instructions" filename:txt
+"sanity probes" filename:yaml
+"debug signal definitions" filename:yaml
+"experimental scheduler" filename:go
+"sync boundary" filename:md
+"state leak observations" filename:md
+"system invariants" filename:md
+"internal version schema" filename:json
+"unfinalized schema" filename:sql
+"proto evolution notes" filename:md
+"transport adapter" filename:ts
+"api lifecycle table" filename:csv
+"fallback serializer" filename:py
+"format discrepancies" filename:txt
+"privacy boundary notes" filename:md
+"data lineage hints" filename:md
+"security posture notes" filename:md
+"internal reviewer notes" filename:txt
+"system expectations" filename:md
+"design regrets" filename:md
+"constraints list" filename:txt
+"wrong assumptions log" filename:md
+"internal failure modes" filename:md
+"pre-mortem" filename:md
+"auxiliary input" filename:json
+"redundant edge case" filename:txt
+"shadow feature" filename:ts
+"forgotten toggle" filename:json
+"revert plan" filename:md
+"debug override" filename:yaml
+"emergency override" filename:json
+"hidden webhook" filename:ts
+"background worker hints" filename:md
+"job retry profiles" filename:json
+"internal index definitions" filename:json
+"forked dependency notes" filename:md
+"patch tracker" filename:txt
+"internal toolkit" filename:js
+"unpublished cli" filename:go
+"devchain" filename:md
+"api facade notes" filename:md
+"structural gaps" filename:md
+"critical assumptions" filename:md
+"internal" path:src
+"internal" path:core
+"internal" path:modules
+"internal" path:services
+"internal" path:handlers
+"internal" path:server
+"internal" path:lib
+"internal" path:app
+"internal" path:pkg
+"internal" path:legacy
+"internal" path:api
+"internal" path:backend
+"internal" path:frontend
+"internal" path:workers
+"internal" path:daemon
+"internal" path:scripts
+"internal" path:tools
+"internal" path:framework
+"internal" path:middleware
+
+"beta" path:api
+"beta" path:routes
+"beta" path:features
+"beta" path:services
+"beta" path:core
+"beta" path:next
+"beta" path:experimental
+"beta" path:labs
+"beta" path:draft
+"beta" path:v2
+
+"debug" path:src
+"debug" path:modules
+"debug" path:runtime
+"debug" path:controller
+"debug" path:actions
+"debug" path:interceptors
+"debug" path:cache
+"debug" path:workers
+"debug" path:queue
+"debug" path:api
+
+"deprecated" path:src
+"deprecated" path:core
+"deprecated" path:auth
+"deprecated" path:routes
+"deprecated" path:v1
+"deprecated" path:api
+"deprecated" path:controllers
+"deprecated" path:components
+"deprecated" path:models
+"deprecated" path:middleware
+
+"unstable" path:src
+"unstable" path:packages
+"unstable" path:features
+"unstable" path:app
+"unstable" path:labs
+"unstable" path:core
+"unstable" path:server
+"unstable" path:workflow
+"unstable" path:extensions
+"unstable" path:utils
+
+"hidden" path:routes
+"hidden" path:api
+"hidden" path:admin
+"hidden" path:features
+"hidden" path:internal
+"hidden" path:modules
+"hidden" path:controller
+"hidden" path:dashboard
+"hidden" path:jobs
+"hidden" path:tasks
+
+"shadow" path:api
+"shadow" path:router
+"shadow" path:gateway
+"shadow" path:internal
+"shadow" path:services
+"shadow" path:actions
+"shadow" path:lambda
+"shadow" path:scripts
+"shadow" path:server
+"shadow" path:modules
+
+"private" path:tasks
+"private" path:actions
+"private" path:modules
+"private" path:routes
+"private" path:cli
+"private" path:dev
+"private" path:ops
+"private" path:runtime
+"private" path:config
+"private" path:dashboard
+
+"draft" path:api
+"draft" path:workflow
+"draft" path:services
+"draft" path:devtools
+"draft" path:extensions
+"draft" path:docs
+"draft" path:schema
+"draft" path:components
+"draft" path:router
+"draft" path:controllers
+
+"alpha" path:services
+"alpha" path:apis
+"alpha" path:components
+"alpha" path:sdk
+"alpha" path:packages
+"alpha" path:runner
+"alpha" path:server
+"alpha" path:cli
+"alpha" path:worker
+"alpha" path:plugins
+
+"work_in_progress" path:src
+"work_in_progress" path:api
+"work_in_progress" path:workflow
+"work_in_progress" path:server
+"work_in_progress" path:models
+"work_in_progress" path:extensions
+"work_in_progress" path:modules
+"work_in_progress" path:lib
+"work_in_progress" path:config
+"work_in_progress" path:controllers
+
+"unstableFeature" 
+"temporaryFeature"
+"temporaryRoute"
+"temporaryAPI"
+"temporaryController"
+"temporaryModule"
+"todoRefactor"
+"todoRewrite"
+"todoCleanup"
+"todoImprove"
+
+"fixme" path:src
+"fixme" path:api
+"fixme" path:routes
+"fixme" path:actions
+"fixme" path:worker
+"fixme" path:engine
+"fixme" path:scheduler
+"fixme" path:processor
+"fixme" path:runtime
+"fixme" path:main
+
+"unsafe" path:middleware
+"unsafe" path:utils
+"unsafe" path:parsers
+"unsafe" path:schema
+"unsafe" path:validator
+"unsafe" path:auth
+"unsafe" path:crypto
+"unsafe" path:filters
+"unsafe" path:upload
+"unsafe" path:logger
+
+"experimental" path:plugins
+"experimental" path:modules
+"experimental" path:components
+"experimental" path:ui
+"experimental" path:tools
+"experimental" path:workers
+"experimental" path:lambda
+"experimental" path:actions
+"experimental" path:extensions
+"experimental" path:framework
+
+"legacy" path:server
+"legacy" path:controllers
+"legacy" path:actions
+"legacy" path:api
+"legacy" path:client
+"legacy" path:backend
+"legacy" path:frontend
+"legacy" path:code
+"legacy" path:kernel
+"legacy" path:core
+
+"archive" path:src
+"archive" path:app
+"archive" path:api
+"archive" path:controller
+"archive" path:system
+"archive" path:models
+"archive" path:core
+"archive" path:modules
+"archive" path:middleware
+"archive" path:components
+
+"removed" path:src
+"removed" path:server
+"removed" path:controllers
+"removed" path:routing
+"removed" path:actions
+"removed" path:service
+"removed" path:models
+"removed" path:core
+"removed" path:packages
+"removed" path:runner
+
+"disable" path:auth
+"disable" path:security
+"disable" path:validator
+"disable" path:schema
+"disable" path:filters
+"disable" path:logger
+"disable" path:csrf
+"disable" path:middleware
+"disable" path:limits
+"disable" path:cache
+
+"skip" "validation"
+"skip" "checks"
+"skip" "middleware"
+"skip" "filter"
+"skip" "verification"
+"skip" "rules"
+"skip" "escaping"
+"skip" "sanitization"
+"skip" "logging"
+"skip" "parsing"
+
+"temporary" path:server
+"temporary" path:routes
+"temporary" path:controller
+"temporary" path:modules
+"temporary" path:jobs
+"temporary" path:scripts
+"temporary" path:tasks
+"temporary" path:config
+"temporary" path:components
+"temporary" path:system
+
+"mock" path:api
+"mock" path:services
+"mock" path:core
+"mock" path:modules
+"mock" path:testdata
+"mock" path:data
+"mock" path:stubs
+"mock" path:fixtures
+"mock" path:engine
+"mock" path:helpers
+
+"playground" path:src
+"playground" path:components
+"playground" path:modules
+"playground" path:experimental
+"playground" path:labs
+"playground" path:test
+"playground" path:tools
+"playground" path:lib
+"playground" path:scripts
+"playground" path:cli
+
+"sandbox" path:api
+"sandbox" path:controller
+"sandbox" path:jobs
+"sandbox" path:engine
+"sandbox" path:functions
+"sandbox" path:queue
+"sandbox" path:lambda
+"sandbox" path:worker
+"sandbox" path:builders
+"sandbox" path:apps
+
+"stagingOnly"
+"devOnly"
+"qaOnly"
+"debugOnly"
+"internalOnly"
+"adminOnly"
+"testOnly"
+"restrictedOnly"
+"legacyOnly"
+"betaOnly"
+
+"router" "internal"
+"router" "hidden"
+"router" "private"
+"router" "debug"
+"router" "sandbox"
+"router" "example"
+"router" "alpha"
+"router" "beta"
+"router" "deprecated"
+"router" "unstable"
+
+"controller" "internal"
+"controller" "debug"
+"controller" "legacy"
+"controller" "test"
+"controller" "insecure"
+"controller" "prototype"
+"controller" "mock"
+"controller" "wip"
+"controller" "draft"
+"controller" "beta"
+
+"handler" "experimental"
+"handler" "internal"
+"handler" "debug"
+"handler" "shadow"
+"handler" "legacy"
+"handler" "unstable"
+"handler" "playground"
+"handler" "prototype"
+"handler" "raw"
+"handler" "unsafe"
+
+"pipeline" "dev"
+"pipeline" "staging"
+"pipeline" "shadow"
+"pipeline" "internal"
+"pipeline" "legacy"
+"pipeline" "unstable"
+"pipeline" "beta"
+"pipeline" "experimental"
+"pipeline" "draft"
+"pipeline" "qa"
+
+"featureFlag" "alpha"
+"featureFlag" "beta"
+"featureFlag" "internal"
+"featureFlag" "dev"
+"featureFlag" "experimental"
+"featureFlag" "shadow"
+"featureFlag" "toggle"
+"featureFlag" "hidden"
+"featureFlag" "legacy"
+"featureFlag" "wip"
+
+"migration" "deprecated"
+"migration" "legacy"
+"migration" "unstable"
+"migration" "internal"
+"migration" "shadow"
+"migration" "alpha"
+"migration" "beta"
+"migration" "draft"
+"migration" "experimental"
+"migration" "wip"
+
+"config" "legacy_mode"
+"config" "debug_mode"
+"config" "dev_mode"
+"config" "experimental"
+"config" "toggle"
+"config" "beta"
+"config" "unsafe"
+"config" "skip"
+"config" "disable"
+"config" "placeholder"
+"TODO remove in prod"
+"TODO improve logic"
+"TODO cleanup code"
+"TODO rewrite later"
+"TODO refactor soon"
+"TODO optimize later"
+"TODO handle errors"
+"TODO add validation"
+"TODO sanitize input"
+"TODO secure this"
+"TODO fix race"
+"TODO fix concurrency"
+"TODO fix deadlock"
+"TODO fix thread issue"
+"TODO handle edge cases"
+"TODO fix performance"
+"TODO add retry"
+"TODO add fallback"
+"TODO add timeout"
+"TODO add caching"
+"TODO improve caching"
+"TODO remove debug"
+"TODO replace mock"
+"TODO replace stub"
+"TODO remove hack"
+"TODO remove workaround"
+"TODO fix workaround"
+"TODO update schema"
+"TODO update model"
+"TODO update routing"
+"TODO update controller"
+"TODO update handler"
+"TODO update utils"
+"TODO update middleware"
+"TODO update tests"
+"TODO fix tests"
+"TODO improve coverage"
+"TODO add integration test"
+"TODO add unit tests"
+"TODO remove magic number"
+"TODO remove duplication"
+"TODO remove legacy code"
+"TODO fix legacy logic"
+"TODO rewrite service"
+"TODO update feature flag"
+"TODO fix experimental"
+"TODO finalize draft"
+"TODO fix experimental flag"
+"FIXME patch temporary"
+"FIXME quick fix"
+"FIXME wrong assumption"
+"FIXME unsafe handling"
+"FIXME missing validation"
+"FIXME missing filter"
+"FIXME missing check"
+"FIXME missing guard"
+"FIXME missing escape"
+"FIXME incomplete handler"
+"FIXME partial implementation"
+"FIXME incomplete logic"
+"FIXME incorrect default"
+"FIXME wrong mapping"
+"FIXME wrong condition"
+"FIXME wrong loop"
+"FIXME wrong route"
+"FIXME wrong middleware order"
+"FIXME wrong schema"
+"FIXME wrong serialization"
+"FIXME wrong deserialization"
+"FIXME wrong conversion"
+"FIXME wrong transform"
+"FIXME wrong regex"
+"FIXME weak regex"
+"FIXME unsafe regex"
+"FIXME non-performant regex"
+"FIXME async issue"
+"FIXME await missing"
+"FIXME promise not handled"
+"FIXME missing catch"
+"FIXME unhandled exception"
+"FIXME missing boundary"
+"FIXME missing cleanup"
+"FIXME missing close"
+"FIXME missing dispose"
+"FIXME missing finalize"
+"FIXME missing shutdown"
+"FIXME missing teardown"
+"FIXME missing rollback"
+"FIXME missing transaction"
+"FIXME missing flush"
+"FIXME missing commit"
+"FIXME missing release"
+"FIXME missing context"
+"FIXME missing cancel"
+"FIXME missing abort"
+"FIXME missing enforce"
+"FIXME missing integrity"
+"skipValidation"
+"skipSanitization"
+"skipFilters"
+"skipEscaping"
+"skipRules"
+"skipChecks"
+"skipBoundary"
+"skipHandler"
+"skipCondition"
+"skipMiddleware"
+"skipRateLimit"
+"skipTransform"
+"skipSchema"
+"skipParsing"
+"skipProcessing"
+"skipThrottle"
+"skipGuard"
+"skipErrorHandling"
+"skipMapping"
+"skipNormalization"
+"skipEdgeCases"
+"skipRetry"
+"skipTimeout"
+"skipLogging"
+"skipMetrics"
+"skipTracing"
+"disableValidation"
+"disableSanitize"
+"disableFilters"
+"disableGuard"
+"disableCheck"
+"disableVerification"
+"disableEncoding"
+"disableEscaping"
+"disableSchema"
+"disableMiddleware"
+"disableCORSCheck"
+"disableRedirectCheck"
+"disableBoundary"
+"disableRateLimit"
+"disableNormalization"
+"disableErrorReporting"
+"unsafeCast"
+"unsafeTransform"
+"unsafeOperation"
+"unsafeDefault"
+"unsafeMapping"
+"unsafeMode"
+"unsafeCompare"
+"unsafeCopy"
+"unsafeClone"
+"unsafeEquals"
+"unsafeSerialize"
+"unsafeDeserialize"
+"unsafeRoute"
+"unsafeFetch"
+"unsafeHandler"
+"unsafeSwitch"
+"unsafeOverride"
+"unsafeRef"
+"unsafeLoop"
+"unsafeContext"
+"unsafeThread"
+"unsafeAsync"
+"unsafeAwait"
+"unsafePromise"
+"unsafeConversion"
+"unsafeIntl"
+"unsafeMemoryUse"
+"unsafeCache"
+"unsafePattern"
+"unsafeParser"
+"unsafeMiddlewareOrder"
+"wipFeature"
+"wipEndpoint"
+"wipRoute"
+"wipSchema"
+"wipModel"
+"wipMigration"
+"wipMiddleware"
+"wipGateway"
+"wipHandler"
+"wipValidator"
+"wipEngine"
+"wipService"
+"wipScheduler"
+"wipCLI"
+"experimentalMode"
+"experimentalFeature"
+"experimentalAPI"
+"experimentalRouting"
+"experimentalController"
+"experimentalBuilder"
+"experimentalParser"
+"experimentalRenderer"
+"experimentalFlag"
+"experimentalModule"
+"alphaFeature"
+"alphaModule"
+"alphaRoute"
+"alphaLogic"
+"alphaService"
+"alphaUI"
+"alphaController"
+"alphaConfig"
+"alphaExperiment"
+"alphaTest"
+"betaModule"
+"betaFeature"
+"betaStage"
+"betaHandler"
+"betaRouting"
+"betaUI"
+"betaLogic"
+"betaEngine"
+"betaTest"
+"betaComponent"
+"ignoredCase"
+"ignoredEdge"
+"ignoredException"
+"ignoredError"
+"ignoredCondition"
+"ignoredState"
+"ignoredFlag"
+"ignoredBranch"
+"ignoredPath"
+"ignoredInput"
+"ignoredOutput"
+"ignoredResult"
+"incompleteFeature"
+"incompleteHandler"
+"incompleteController"
+"incompleteSchema"
+"incompleteMigration"
+"incompleteRouting"
+"incompleteMapping"
+"incompleteValidator"
+"incompleteTest"
+"incompleteService"
+"partialImplementation"
+"partialParse"
+"partialDecode"
+"partialEncode"
+"partialRender"
+"partialProcess"
+"partialSetup"
+"partialShutdown"
+"partialBoot"
+"partialMigration"
+"partialRouting"
+"partialSchema"
+"placeholderLogic"
+"placeholderFeature"
+"placeholderRoute"
+"placeholderService"
+"placeholderConfig"
+"placeholderMapping"
+"placeholderComponent"
+"placeholderHandler"
+"placeholderModel"
+"temporaryLogic"
+"temporaryRoute"
+"temporaryMapping"
+"temporaryWorkaround"
+"temporaryPatch"
+"temporaryState"
+"temporaryService"
+"temporaryController"
+"temporaryParser"
+"temporaryResult"
+"hackyFix"
+"dirtyFix"
+"cheapFix"
+"quickHack"
+"fastHack"
+"temporaryHack"
+"prototypeMode"
+"prototypeRouting"
+"prototypeController"
+"prototypeHandler"
+"prototypeFeature"
+"prototypeService"
+"prototypeTest"
+"prototypeConfig"
+"legacyHandler"
+"legacyFeature"
+"legacyPattern"
+"legacyMapping"
+"legacyFlag"
+"legacyMode"
+"legacyAPI"
+"legacyRouting"
+"legacyService"
+"legacyModule"
+"legacyBridge"
+"legacyController"
+"devMode"
+"debugMode"
+"traceMode"
+"verboseMode"
+"developmentOnly"
+"debugOnly"
+"testOnly"
+"qaOnly"
+"stagingOnly"
+"productionBypass"
+"missingNullCheck"
+"missingUndefinedCheck"
+"missingElse"
+"missingCase"
+"missingBreak"
+"missingContinue"
+"missingDefault"
+"missingValidation"
+"missingEscape"
+"missingFilter"
+"missingBounds"
+"missingLengthCheck"
+"missingTypeCheck"
+"missingRetry"
+"missingTimeout"
+"missingClose"
+"missingFree"
+"missingDispose"
+"missingRollback"
+"missingTransaction"
+"missingNormalization"
+"missingIntegrity"
+"missingFallback"
+"missingConstraint"
+"missingAuthCheck"
+"missingPermissionCheck"
+"missingRoleCheck"
+"missingGateCheck"
+"missingSignatureCheck"
+"missingLock"
+"missingMutex"
+"missingSemaphore"
+"missingSync"
+"missingAwait"
+"missingPromiseCatch"
+"missingInvoker"
+"missingTrigger"
+"brokenCondition"
+"brokenLoop"
+"brokenMapping"
+"brokenFlag"
+"brokenCheck"
+"brokenAssertion"
+"brokenCase"
+"brokenSwitch"
+"brokenRoute"
+"brokenController"
+"brokenHandler"
+"brokenConfig"
+"brokenSchema"
+"brokenParser"
+"brokenDecode"
+"brokenEncode"
+"brokenTransform"
+"brokenState"
+"brokenFlow"
+"brokenRedirect"
+"brokenChain"
+"brokenMiddleware"
+"brokenInterceptor"
+"badSmell"
+"codeSmell"
+"antiPattern"
+"weakPattern"
+"weakMapping"
+"weakValidation"
+"weakCheck"
+"weakGuard"
+"weakAssumption"
+"weakConstraint"
+"weakSchema"
+"weakConversion"
+"weakCondition"
+"weakHandler"
+"weakModel"
+"weakResolver"
+"weakParser"
+"weirdLogic"
+"weirdCondition"
+"weirdBranch"
+"weirdCase"
+"weirdFlow"
+"weirdRouting"
+"weirdFlag"
+"weirdMapping"
+"weirdState"
+"TODO temporary bypass"
+"TODO fix before deploy"
+"TODO cleanup this later"
+"temporary patch applied"
+"legacy rewriter enabled"
+"experimental flag active"
+"deprecated function wrapper"
+"deprecated adapter interface"
+"migration-v1 old schema ref"
+"migration-temp model"
+"fallback-mode true"
+"hotfix temporary logic"
+"hacky workaround block"
+"remove-later utility"
+"unstable experiment module"
+"dev-only config block"
+"debug-probe enabled"
+"mock-mode active"
+"mock-service placeholder"
+"shadow-build script"
+"manual-patch required"
+"temporary-scheduler override"
+"experimental-registry"
+"old-backend-handler"
+"legacy endpoint comment"
+"prototype workflow"
+"temp-token-placeholder"
+"dummy pipeline step"
+"staging override logic"
+"internal-test-tools"
+"simulation-mode only"
+"unstable-flag = 1"
+"lab-feature"
+"beta feature controller"
+"feature-flag hardcoded"
+"internal-dashboard-utils"
+"prelaunch-version"
+"unsafe-batch-processor"
+"raw-query wrapper"
+"manual-override console"
+"fallback-bootstrap"
+"weak-logic-block"
+"temp-serializer"
+"old-index-generator"
+"rapid-prototype module"
+"legacy-v2 adapter"
+"deprecated-v3 module"
+"compat-layer temporary"
+"proto-cache design"
+"edge-case bypass"
+"temporary-limiter"
+"half-implemented module"
+"unimplemented branch"
+"missing-validation note"
+"skip-check block"
+"no-validation pipeline"
+"unchecked-operation"
+"unsanitized variable note"
+"missing-field comment"
+"bypass-for-now"
+"ignore-error temporary"
+"retry loop hack"
+"forced-sync mode"
+"unoptimized loop"
+"inefficient query note"
+"preload everything note"
+"artificial delay"
+"manual-wait hack"
+"hardcoded path warning"
+"static-path issue"
+"manual-routing"
+"untyped parameter"
+"dynamic-any type"
+"unsafe-cast comment"
+"reflection-hack"
+"runtime-dispatch wrapper"
+"manual-introspection"
+"brittle-pattern"
+"fragile-integration"
+"dependency-hell workaround"
+"dependency override block"
+"legacy-package temp"
+"manual-bundle adjustment"
+"override peer-dependency"
+"temp-stub"
+"temporary-entrypoint"
+"local-service mock"
+"disabled-test-suite"
+"skip-ci block"
+"skip-lint"
+"skip-typecheck comment"
+"ignore build-step"
+"dev-only instrumentation"
+"profiling-mode enabled"
+"raw-logging"
+"console-spam"
+"debug-print generator"
+"trace-every-call"
+"log-all-events"
+"verbose-dump"
+"internal-event-bus"
+"monitor-hook"
+"temporary-metrics"
+"unsafe-metrics"
+"manual-metric-exporter"
+"partial-index"
+"unindexed-field"
+"slow-query-expected"
+"naive-implementation"
+"needs-optimization"
+"spaghetti-section"
+"crowded-block"
+"overcomplicated logic"
+"technical debt noted"
+"dirty fix"
+"temporary switch-case"
+"duplicated logic"
+"redundant-check"
+"utility graveyard"
+"deprecated-utils"
+"unstable-api call"
+"prototype endpoint"
+"not-production-ready"
+"developer-only interface"
+"scaffold leftover"
+"boilerplate-ignore"
+"skip this entirely"
+"old-middleware"
+"temp formatter"
+"unstable build"
+"manual bundle patch"
+"non-deterministic"
+"race condition possible"
+"timing-sensitive area"
+"temp-sleep call"
+"retry-without-limit"
+
+
+  
