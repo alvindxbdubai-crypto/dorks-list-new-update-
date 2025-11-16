@@ -1,6 +1,3 @@
-# GitHub Dorks - 1000+ Raw List
-
-```
 ANTHROPIC_API_KEY
 OPENAI_API_KEY
 OPENAI_API_SECRET
@@ -924,4 +921,3 @@ extension:properties "password"
 "private_key" language:javascript
 "access_token" language:python
 "access_token" language:javascript
-```
